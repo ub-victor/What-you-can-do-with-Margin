@@ -6,7 +6,7 @@ header {
 
 .nav {
     background: pink;
-    padding-right: 3px;
+    padding: 2px;
     /* 
         The 'flex-basis' property specifies the initial main size of a flex item.
         It sets the base size of the flex item before any available space is distributed
