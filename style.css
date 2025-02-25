@@ -6,7 +6,7 @@ header {
 
 .nav {
     background: pink;
-    padding: 2px;
+    padding-right: 3px;
     /* 
         The 'flex-basis' property specifies the initial main size of a flex item.
         It sets the base size of the flex item before any available space is distributed
@@ -27,6 +27,7 @@ header > img{
     padding: 0;
     list-style: none;
     display: flex;
+    gap: 1em;
     background: lightblue;
 }
 
@@ -46,6 +47,7 @@ header > img{
 
 .nav__list li:nth-of-type(6){ 
     background-color: blue;
+    margin-left: auto; /* The 'margin-left: auto' rule pushes the sixth list item to the right edge of the container. */
 }
 
 .nav__list li:nth-of-type(7){ 
