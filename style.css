@@ -2,6 +2,7 @@ header {
     padding: 2em;
     background: #fff;
     display: flex;
+    padding-right: 5px;
 }
 
 .nav {
@@ -28,7 +29,8 @@ header > img{
     list-style: none;
     display: flex;
     gap: 1em;
-    background: lightblue;
+    margin-left: 1em;
+    margin-right: 5px;
 }
 
 .nav__list a{ 
