@@ -56,7 +56,7 @@ header > img{
 }
 
 .nav__list a{ 
-    
+    line-height: 2;
     color: var(--clr-primary);
     font-size: 25px;
 }
