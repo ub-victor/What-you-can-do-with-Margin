@@ -39,3 +39,12 @@ header > img{
 .nav__list a:focus{
     color: var(--clr-body);
 }
+
+
+/* The ':nth-of-type(7)' pseudo-class selects the seventh 'li' element within the '.nav__list'.
+    This rule sets the background color of the seventh list item to yellow. */
+.nav__list li:nth-of-type(7){ 
+     background-color: yellow;
+}
+
+}
