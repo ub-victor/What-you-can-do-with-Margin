@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(226, 220, 220);
+}
 header {
     padding: 2em;
     background: #fff;
@@ -6,7 +14,6 @@ header {
 }
 
 .nav {
-    background: pink;
     padding: 2px;
     /* 
         The 'flex-basis' property specifies the initial main size of a flex item.
@@ -46,6 +53,10 @@ header > img{
 
 /* The ':nth-of-type(7)' pseudo-class selects the seventh 'li' element within the '.nav__list'.
     This rule sets the background color of the seventh list item to yellow. */
+
+.nav__list li:nth-of-type(1){
+    background-color: pink;
+}    
 
 .nav__list li:nth-of-type(6){ 
     background-color: blue;
