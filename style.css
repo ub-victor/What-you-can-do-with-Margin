@@ -3,8 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body:root {
+    --clr-bg: #ddd;
+    --clr-primary: #ee6352; 
+    --clr-secondary: #f4f4f4;
+    --clr-body: #333;
+}
 body {
+    font-family: basic-sans, sans-serif;
+    font-size: 1.125em;
     background: rgb(226, 220, 220);
+    color: var(--clr-bg);
+    background: var(--clr-bg);
+    min-height: 100vh;
+
 }
 header {
     padding: 2em;
@@ -54,8 +66,7 @@ header > img{
 /* The ':nth-of-type(7)' pseudo-class selects the seventh 'li' element within the '.nav__list'.
     This rule sets the background color of the seventh list item to yellow. */
 
-.nav__list li:nth-of-type(1){
-    background-color: pink;
+.nav__list li:nth-of-type(1){  
     margin-left: auto;
 }    
 
