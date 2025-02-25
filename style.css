@@ -57,8 +57,8 @@ header > img{
     color: var(--clr-primary);
 }
 
-.nav__list a:hover
-.nav__list a:focus{
+.nav__list a:hover,
+nav__list a:focus{
     color: var(--clr-body);
 }
 
@@ -73,12 +73,14 @@ header > img{
 .nav__list li:nth-of-type(6){ 
     background: teal;
     margin-left: auto; /* The 'margin-left: auto' rule pushes the sixth list item to the right edge of the container. */
+    border: 5px solid teal;
 }
 
 .nav__list li:nth-of-type(7){ 
     background: yellow;
     /* margin-right: auto; /* The 'margin-right: auto' rule pushes the seventh list item to the left edge of the container. */
     /* margin-left: auto;/* The 'margin-left: auto' rule pushes the seventh list item to the right edge of the container. */
+    border: 5px solid yellow;
     
 }
 
