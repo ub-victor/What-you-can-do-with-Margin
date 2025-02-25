@@ -13,3 +13,8 @@ header > img{
     padding: 0;
     list-style: none;
 }
+
+.nav__list a{ 
+    line-height: 3;
+    color: var(--clr-primary);
+}
