@@ -1,6 +1,7 @@
 header {
     padding: 2em;
     background: #fff;
+    display: flex;
 }
 
 header > img{
@@ -17,4 +18,9 @@ header > img{
 .nav__list a{ 
     line-height: 3;
     color: var(--clr-primary);
+}
+
+.nav__list a:hover
+.nav__list a:focus{
+    color: var(--clr-body);
 }
