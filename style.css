@@ -60,7 +60,7 @@ header > img{
 }    
 
 .nav__list li:nth-of-type(6){ 
-    background-color: blue;
+    background: teal;
     margin-left: auto; /* The 'margin-left: auto' rule pushes the sixth list item to the right edge of the container. */
 }
 
