@@ -43,8 +43,15 @@ header > img{
 
 /* The ':nth-of-type(7)' pseudo-class selects the seventh 'li' element within the '.nav__list'.
     This rule sets the background color of the seventh list item to yellow. */
-.nav__list li:nth-of-type(7){ 
-     background-color: yellow;
+
+.nav__list li:nth-of-type(6){ 
+    background-color: blue;
 }
 
+.nav__list li:nth-of-type(7){ 
+    background-color: yellow;
+    /*margin-right: auto;  The 'margin-right: auto' rule pushes the seventh list item to the left edge of the container. */
+    margin-left: auto;/* The 'margin-left: auto' rule pushes the seventh list item to the right edge of the container. */;
+    
 }
+
