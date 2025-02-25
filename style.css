@@ -7,6 +7,14 @@ header {
 .nav {
     background: pink;
     padding: 2px;
+    /* 
+        The 'flex-basis' property specifies the initial main size of a flex item.
+        It sets the base size of the flex item before any available space is distributed
+        according to the flex factors. In this case, 'flex-basis: 100%' means the flex item
+        will take up 100% of the container's main size.
+    
+    flex-basis: 100%;  */
+    flex-grow: 1;
 }
 
 header > img{
@@ -19,6 +27,7 @@ header > img{
     padding: 0;
     list-style: none;
     display: flex;
+    background: lightblue;
 }
 
 .nav__list a{ 
