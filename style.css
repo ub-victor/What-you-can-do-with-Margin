@@ -14,7 +14,7 @@ header {
         will take up 100% of the container's main size.
     
     flex-basis: 100%;  */
-    flex-grow: 1;
+    flex-grow: 1; /* The 'flex-grow' property specifies how much the item will grow relative to the rest of the flexible items inside the same container. */
 }
 
 header > img{
