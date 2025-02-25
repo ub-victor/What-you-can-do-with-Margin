@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body:root {
+:root {
     --clr-bg: #ddd;
     --clr-primary: #ee6352; 
     --clr-secondary: #f4f4f4;
