@@ -74,6 +74,9 @@ nav__list a:focus{
     background: teal;
     margin-left: auto; /* The 'margin-left: auto' rule pushes the sixth list item to the right edge of the container. */
     border: 5px solid teal;
+    border-radius: 5px;
+    font-size:larger;
+    font-weight: bold;
 }
 
 .nav__list li:nth-of-type(7){ 
@@ -81,6 +84,8 @@ nav__list a:focus{
     /* margin-right: auto; /* The 'margin-right: auto' rule pushes the seventh list item to the left edge of the container. */
     /* margin-left: auto;/* The 'margin-left: auto' rule pushes the seventh list item to the right edge of the container. */
     border: 5px solid yellow;
-    
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;    
 }
 
